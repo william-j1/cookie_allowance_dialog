@@ -1,0 +1,5 @@
+
+RewriteEngine On
+
+RewriteRule ^allow-cookies/(.*)/$ p.php?!=set_cookie_use&allow=yes [L]
+RewriteRule ^allow-cookies/$ p.php?!=set_cookie_use [L]
